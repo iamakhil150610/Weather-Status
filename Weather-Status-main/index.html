@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Status</h1>
+        <form id="form">
+            <input id="input" type="text" name="city" placeholder="Enter city name">
+            <button class="enter" type="submit" >Enter</button>
+        </form>
+        <h1 class="curr">Current Temperature: </h1>
+        <h3 class="temp"><span class="currTemp"></span><span style='font-size:20px; visibility: hidden;' class="unit"> &#8451</span> </h3>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
